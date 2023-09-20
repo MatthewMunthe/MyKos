@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Profile</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body id="admin-profile">
+    <div class="logo-back-adminProfile-div">
+        <img src="../icons/back.png" alt="Home" id="back-pict">
+    </div>
+
+    <div class="info-kos-rectangle">
+
+        <div class="kos-title-div">
+            <h3 id="kos-name">Surya Kost</h3>
+            <div class="edit-admin-profile">
+                <img src="../icons/pencil.png" alt="Pencil" id="pencil-pict">
+                <p id="text-edit-nav-item">Edit</p>
+            </div>
+        </div>
+
+        <!-- id untuk subtitle semua sama karena nanti css nya sama semua -->
+        <!-- id untuk textnya juga sama soalnya css juga sama nanti, biar di css panggil sekali aja. -->
+        <div class="info-kos-div">
+            <div class="info-row">
+                <p id="subtitle-di-admin-profile">Alamat</p>
+                <textarea id="isi-di-admin-profile" class="alamat-kos"
+                    disabled>Jl. Tempo No. 8A, Kebun Hijau, Jakarta Barat, Jakarta, Indonesia</textarea>
+            </div>
+
+            <!-- <div class="info-row">
+                <p id="subtitle-di-admin-profile">Tanggal Bayar</p>
+                <textarea id="isi-di-admin-profile" class="tanggal-bayar" disabled>25</textarea>
+            </div> -->
+
+            <div class="info-row">
+                <p id="subtitle-di-admin-profile">Jumlah Tamu</p>
+                <textarea id="isi-di-admin-profile" class="jumlah-tamu" disabled>169</textarea>
+            </div>
+
+            <div class="info-row">
+                <p id="subtitle-di-admin-profile">Jumlah Kamar Total</p>
+                <textarea id="isi-di-admin-profile" class="jumlah-kamar" disabled>200</textarea>
+            </div>
+
+            <div class="info-row">
+                <p id="subtitle-di-admin-profile">Jumlah Kamar Kosong</p>
+                <textarea id="isi-di-admin-profile" class="jumlah-kamar-kosong" disabled>31</textarea>
+            </div>
+        </div>
+
+        <!-- <div class="kos-lainnya-div">
+            <div class="left-kos-lainnya">
+                <img src="../icons/building.png" alt="Building" id="building-pict">
+                <p id="kos-lainnya">Kos Lainnya</p>
+            </div>
+            <img src="../icons/rightArrow.png" alt="rightArrow" id="rightArrow-pict">
+        </div> -->
+
+    </div>
+
+    <a href="log-in.html"><button class="btn-keluar-admin-profile">Keluar</button></a>
+
+    <div class="navbar-pertama">
+
+        <div class="nav-item">
+            <a href="admin-home.html">
+                <img src="../icons/home.png" alt="Home" id="home-pict">
+                <p id="text-nav-item">Home</p>
+            </a>
+
+        </div>
+
+        <div class="nav-item">
+            <a href="daftar-kamar.html">
+                <img src="../icons/rooms.png" alt="Rooms" id="home-pict">
+                <p id="text-nav-item">Rooms</p>
+            </a>
+
+        </div>
+
+        <div class="nav-item">
+            <a href="tagihan.html">
+                <img src="../icons/billing.png" alt="Billing" id="home-pict">
+                <p id="text-nav-item">Billing</p>
+            </a>
+
+        </div>
+
+        <div class="nav-item">
+            <a href="admin-profile.html">
+                <img src="../icons/profile.png" alt="Profile" id="home-pict">
+                <p id="text-nav-item">Profile</p>
+            </a>
+
+        </div>
+
+        <script src="../js/script.js"></script>
+</body>
+
+</html>

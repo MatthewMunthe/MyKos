@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body id="sign-up">
+    <section class="form-section">
+        <div class="form-container">
+            <h4 class="form-title">Sign Up</h4>
+            <form name="signUpForm">
+                <input type="text" id="fnameSignUp" name="fname" placeholder="First Name"><br>
+
+                <input type="text" id="lnameSignUp" name="lname" placeholder="Last Name"><br>
+
+                <input type="email" id="emailSignUp" name="email" placeholder="Email"><br>
+
+                <input type="tel" id="phoneNumSignUp" name="phone-number" placeholder="Phone Number"><br>
+
+                <input type="password" id="passwordSignUp" name="password" placeholder="Password"><br>
+
+                <input type="password" id="confirmPasswordSignUp" name="confirm-password"
+                    placeholder="Confirm Password"><br>
+
+                <br>
+                <div id="sign-up-validation"></div>
+                <br>
+
+                <div class="role-selection">
+                    <label for="rel">Saya adalah :</label><br>
+                    <select id="role-id">
+                        <option id="signUpOPt" value="tenant">Tenant</option>
+                        <option id="signUpOpt" value="admin">Admin</option>
+                    </select>
+                </div>
+
+                <br>
+                <button id="signUpBtn" type="submit">Sign Up</button>
+                <p>Already have an account ? <a href="../html/log-in.html">Log In</a></p>
+            </form>
+        </div>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

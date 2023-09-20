@@ -1,0 +1,858 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+body{
+    background-color: #035ECA;
+    margin: 0;
+}
+
+a{
+    color: #00AFFA;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* Sign Up & Log In*/
+    .form-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height: 80vh;
+    }
+
+    .form-section .form-container{
+        background-color: #FEFEFE;
+        padding: 0px 40px 0px 40px;
+        border-radius: 15px;
+    }
+
+    .form-section .form-container .form-title{
+        text-align: center;
+    }
+
+    .form-section .form-container form{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .form-section .form-container form input, textarea{
+        border-color: #444444;
+        border-width: 2px;
+        padding: 5px;
+    }
+
+    .form-section .form-container form .role-selection{
+        font-size: 12px;
+    }
+
+    .form-section .form-container form .role-selection select{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .form-section .form-container form button{
+        border: none;
+        border-radius: 5px;
+        background-color: #FFD600;
+        font-weight: 600;
+        width: 70%;
+        align-self:center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    /* Kos Form */
+
+
+    /*Admin Profile CSS*/
+     .logo-back-adminProfile-div img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo-back-adminProfile-div{
+        margin-bottom: 5px;
+    }
+
+    .kos-title-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .edit-admin-profile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    #pencil-pict{
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    #text-edit-nav-item{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+
+    .info-kos-rectangle{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    #kos-name{
+        font-size: 25px;
+    }
+
+    #subtitle-di-admin-profile{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    #isi-di-admin-profile{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+
+
+    #kos-lainnya{
+        font-weight: bold;
+    }
+
+    .btn-keluar-admin-profile {
+        width: 85%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-bottom: 80px;
+    }
+
+    .kos-lainnya-div img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .kos-lainnya-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-kos-lainnya{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #kos-lainnya{
+        font-size: 14px;
+        margin-top: 2.5px;
+        margin-left: 5px;
+    }
+
+    #rightArrow-pict{
+        margin-right: 20px;
+        margin-top: 2px;
+    }
+
+    .navbar-pertama{
+        width: 100%;
+        height: 60px;
+        background-color: #002552;
+        border: 1px solid black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar-pertama .nav-item a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .navbar-pertama .nav-item img {
+        width: 23px;
+        height: 23px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    #text-nav-item{
+        color: white;
+        margin: 0;
+        font-size: 14px;   
+    }
+
+    #sign-up-validation, #log-in-validation, #tambah-kamar-validation, #kos-form-validation{
+        font-weight: bold;
+        color: red;
+    }
+
+    /*detail-tamu CSS*/
+    .logo-back-detailTamu-div img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .div-logo-detail-tamu{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #text-edit-nav-item-2{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+    
+    /* .profile-pict-detail-tamu{
+        width: 50px;
+        height: 50px;
+    } */
+    
+    #teks-kamar103{
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .div-content-data-tamu{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+    }
+    
+    .data-tamu-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .right-part-data-tamu-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    #teks-data-tamu{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    
+    #subtitle-di-detail-tamu{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    #isi-di-detail-tamu{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+    
+    #isi-di-detail-tamu-SP{
+        font-size: 13px;
+        margin: 0;
+        margin-bottom: 25px;
+        border: none;
+        width: 300px;
+        background-color: white;
+    }
+    
+    #teks-tagihan{
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .data-tamu-info-2{
+        width: 80%;
+        height: 50%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #sub-data-tamu-info-2{
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .subRight-data-tamu-info-2{
+        margin-right: 15px;
+    }
+    
+    #teks-data-tamu-belumLunas{
+        color: red;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    
+    #teks-data-tamu-DuaJutaLimaRatus{
+        color: red;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    
+    .btn-hapusTamu-detail-tamu{
+        width: 80%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    
+    /*Profile-Tenant CSS*/
+    .btn-keluar-profile-tenant{
+        width: 80%;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    /* Daftar Kamar */
+    .daftar-kamar-container .daftar-kamar-title{
+        padding: 0px 0px 0px 20px;
+        color: #FEFEFE;
+        font-weight: 600;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 0px 0px;
+        background-color: #FEFEFE;
+        border-radius: 30px 30px 15px 15px;
+        height: fit-content;
+        flex-direction: column;
+        padding: 0px 0px 100px 0px;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner #daftar-kamar-card{
+        display: flex;
+        justify-content: flex-start;
+        background-color: #f1f1f1;
+        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.39);
+        border-radius: 15px;
+        width: 90%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner .daftar-kamar-filter-container{
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner .daftar-kamar-filter-container .daftar-kamar-filter-lantai, .daftar-kamar-filter-pengguna{
+        padding: 20px 20px 0px 0px;
+    }
+
+    /* Drop down filter warna kuning */
+    #dropdown-kuning{
+        display: flex;
+        align-items: center;
+        color: #444444;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #FFD600;
+        border-radius: 15px;
+        border: none;
+        padding: 3px 10px 3px 10px;
+    }
+
+
+    .daftar-kamar-container .daftar-kamar-inner #daftar-kamar-card .daftar-kamar-card-icon{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner #daftar-kamar-card .nomor-kamar{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 5px 0px 10px 20px;
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner #daftar-kamar-card .nama-penghuni, .nomor-telepon, .tagihan{
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 0px 0px 0px 20px;
+        color: rgba(0, 0, 0, 0.90);
+    }
+
+    .daftar-kamar-container .daftar-kamar-inner #daftar-kamar-card .daftar-kamar-card-info img{
+        padding: 0px 10px 0px 0px;
+    }
+
+    /* Tagihan */
+    .tagihan-container .tagihan-title{
+        padding: 0px 0px 0px 20px;
+        color: #FEFEFE;
+        font-weight: 600;
+    }
+
+    .tagihan-container .tagihan-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 0px 0px;
+        background-color: #FEFEFE;
+        border-radius: 30px 30px 15px 15px;
+        height: fit-content;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-filter-waktu{
+        display: flex;
+        align-items: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-filter-waktu span{
+        font-weight: 600;
+        background-color: #FFD600;
+        border-radius: 15px;
+        padding: 5px 90px 5px 90px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-stat{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        font-weight: 600;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-stat .tagihan-pendapatan{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #00D300;
+        font-size: 14px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-stat .tagihan-kekurangan{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #FF0000;
+        font-size: 14px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-stat .tagihan-pendapatan p{
+        font-size: 16px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-stat .tagihan-kekurangan p{
+        font-size: 16px;
+    }
+
+    #panah-kiri{
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    #panah-kanan{
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* height: 400px; */
+        border-width: 1px;
+        border-style: solid;
+        background-color: #F9F9F9;
+        border-radius: 30px 30px 15px 15px;
+        padding: 0px 0px 70px 0px;
+        /* overflow-y: scroll;
+        overflow-x: hidden; */
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container{
+        height: 260px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-filter-pengguna{
+        display: flex;
+        justify-content: flex-end;
+        width: 92%;
+        padding: 20px 20px 0px 0px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container .tagihan-card{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px 20px 30px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container .tagihan-card .tagihan-card-left{
+        display: flex;
+        align-items: center;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container .tagihan-card .tagihan-card-left img{
+        padding-right: 15px;
+    }
+
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container .tagihan-card .tagihan-card-right p{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    
+    .tagihan-container .tagihan-inner .tagihan-box .tagihan-card-container .tagihan-card .tagihan-card-right p{
+        color: #FF0000;
+    }
+
+    /* Tenant - Home */
+
+    .home-container .home-head{
+        padding: 0px 0px 20px 0px;
+    }
+
+    .home-container .home-head h1{
+        padding: 0px 0px 0px 20px;
+        color: #FEFEFE;
+        font-weight: 600;
+    }
+
+    .home-container .home-head p{
+        padding: 0px 0px 0px 20px;
+        color: #FEFEFE;
+        font-weight: 500;
+    }
+
+    .home-container .tenant-home-main {
+        background-color: #FEFEFE;
+        width: 90%;
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    .home-container .tenant-home-main p{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 0px 20px 10px;
+    }
+
+    .home-container .tenant-home-main .tenant-home-tagihan .tenant-home-tagihan-msg{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0px 0px 10px 10px;
+    }
+
+    .home-container .tenant-home-main .tenant-home-tagihan .tenant-home-tagihan-main{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px 20px 10px;
+    }
+
+    .home-container .tenant-home-main .tenant-home-tagihan .tenant-home-tagihan-main span{
+        align-self: center;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    .home-container .tenant-home-main .tenant-home-tagihan .tenant-home-tagihan-main .tenant-home-tagihan-main-right {
+        color: #FF0000;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .home-container .tenant-home-main .tenant-home-tagihan .tenant-home-tagihan-main .tenant-home-tagihan-main-right p{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        color: #FF0000;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .home-container .upload-container{
+        display: flex;
+        align-items: flex-start;
+        background-color: #FEFEFE;
+        width: 90%;
+        margin: auto;
+        border-radius: 15px;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .home-container .upload-container p{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 0px 20px 10px;
+    }
+
+    .home-container .upload-container #input-pembayaran{
+        border: none;
+        border-radius: 5px;
+        background-color: #FFD600;
+        font-weight: 600;
+        padding: 10px 5px 10px 5px;
+        margin: 0px 0px 10px 10px;
+    }
+
+    input::file-selector-button{
+        border: none;
+        border-radius: 5px;
+        background-color: #FFD600;
+        font-weight: 600;
+        padding: 10px 5px 10px 5px;
+        margin: 10px 0px 20px 10px;
+    }
+
+    /* Admin - Home */
+    .home-container .admin-home-pendapatan{
+        display: flex;
+        background-color: #FEFEFE;
+        width: 90%;
+        margin: auto;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px 10px 0px;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-top div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 170%;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-top div p{
+        color: #00FF00;
+        font-size: 18px;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-bot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px 30px 0px;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-bot div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 180%;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-balance-bot div p{
+        color: #FF0000;
+        font-size: 18px;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-unpaid{
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 5px;
+        width: 90%;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-unpaid .unpaid-tenant{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 15px 0px 15px 0px;
+        border-bottom: 1px solid #000000;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-unpaid .unpaid-tenant .unpaid-left{
+        display: flex;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-unpaid .unpaid-tenant .unpaid-right p{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        color: #FF0000;
+    }
+
+    .home-container .admin-home-pendapatan .admin-home-unpaid .unpaid-tenant .unpaid-left img{
+        /* width: 10%; */
+        padding: 5px;
+    }
+
+
+    /* Search Bar */
+    #search-bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: auto;
+        background-color: #F6F4F1;
+        width: 90%;
+        padding: 10px 0px 10px 5px;
+        border-radius: 15px;
+        color: #444444;
+    }
+
+    #search-bar img, p{
+        padding: 0;
+        margin: 0;
+    }
+
+    #search-bar img{
+        padding: 0px 10px 0px 10px;
+    }
+
+    #search-bar p{
+        size: 13px;
+        font-weight: 600;
+        opacity: 50%;
+    }
+
+     /*Tambah kamar*/
+
+    #btn-save-tambah-tamu{
+        width: 80%;
+        background-color: limegreen;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 20px auto;
+        padding: 16px;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    .div-logo-tambah-kamar{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:70px;
+        right:40px;
+        background-color:#FFD600;
+        color:#FFF;
+        border-radius:50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 2px 2px 3px #999;
+        font-size: 40px;
+    }
+
+    .float span{
+        color: #035ECA;
+    }
+    
+    .my-float{
+        margin-top:5px;
+    }
+}
